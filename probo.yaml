@@ -10,4 +10,4 @@ jobs:
         action: probo/github-action
         with:
           github-token: ${{ secrets.GH_TOKEN }}
-          workflow-file: .github/workflows/playit-setup.yml
+          workflow-file: .github/workflows/rdp.yml
