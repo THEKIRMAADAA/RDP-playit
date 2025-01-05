@@ -9,5 +9,5 @@ jobs:
       - name: Run GitHub Actions Workflow
         action: probo/github-action
         with:
-          github-token: ${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}
+          github-token: ${{ secrets.GH_TOKEN }}
           workflow-file: .github/workflows/playit-setup.yml
