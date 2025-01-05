@@ -1,0 +1,13 @@
+version: 1
+
+jobs:
+  build:
+    steps:
+      - name: Checkout Code
+        action: probo/action/checkout
+      
+      - name: Run GitHub Actions Workflow
+        action: probo/github-action
+        with:
+          github-token: ${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}
+          workflow-file: .github/workflows/playit-setup.yml
